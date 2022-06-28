@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+// Routes
 const productRoutes = require("./routes/product.routes");
 const userRoutes = require("./routes/user.routes");
 
